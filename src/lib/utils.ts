@@ -3,7 +3,7 @@ export const formatDate = (date: Date | number) => {
 };
 
 export const formatMoney = (amount: number, currency: string) =>
-	new Intl.NumberFormat("en-US", {
+	new Intl.NumberFormat("nl-NL", {
 		style: "currency",
 		currency,
 	}).format(amount);
